@@ -10,13 +10,18 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
-import { HomeIcon } from "lucide-react";
+import { HomeIcon, MapIcon } from "lucide-react";
 
 const items = [
   {
     title: "Home",
     url: "/dashboard",
     icon: HomeIcon,
+  },
+  {
+    title: "Map",
+    url: "/dashboard/map",
+    icon: MapIcon,
   },
 ];
 
