@@ -40,6 +40,9 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+  --map-danger: var(--destructive);
+  --map-warning: oklch(85.2% 0.199 91.936);
+  --map-normal: oklch(72.3% 0.219 149.579);
 }
 
 :root {
